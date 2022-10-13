@@ -3,13 +3,19 @@ package flower_store;
 import lombok.Getter;
 import lombok.Setter;
 
+
 @Setter
 @Getter
 public class FlowerPack {
-    private int price;
+    private Flower flower;
+    private int amount;
 
 
     public FlowerPack(Flower flower, int i) {
-        this.setPrice(this.getPrice() + flower.getPrice() * i );
+        this.setFlower(flower);
+        this.setAmount(i);
+    }
+    public int getPrice() {
+        return this.flower.getPrice() * this.amount;
     }
 }

@@ -4,23 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db44faaa-b6bf-4268-90fa-4931577d9ba4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/ci.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flower_store/Chamomile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flower_store/Flower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flower_store/FlowerBucket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flower_store/FlowerColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flower_store/FlowerPack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flower_store/FlowerType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flower_store/Rose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flower_store/Tulip.java" afterDir="false" />
+    <list default="true" id="db44faaa-b6bf-4268-90fa-4931577d9ba4" name="Changes" comment="flowerBucket and Flowerpack">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flower_store/FlowerBucket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flower_store/FlowerBucket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flower_store/FlowerPack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flower_store/FlowerPack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +22,24 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="flower-bucket" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -73,6 +78,14 @@
       <option name="presentableId" value="Default" />
       <updated>1665650750459</updated>
     </task>
+    <task id="LOCAL-00001" summary="flowers">
+      <created>1665654816410</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665654816410</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,10 +93,42 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="flower-bucket" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="flower-bucket" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="flowers" />
+    <MESSAGE value="flowerBucket and Flowerpack" />
+    <option name="LAST_COMMIT_MESSAGE" value="flowerBucket and Flowerpack" />
   </component>
 </project>

@@ -14,5 +14,4 @@ public class FlowerBucket {
         this.flowerPacks.add(pack);
         this.setPrice(this.getPrice()+pack.getPrice());
     }
-
 }
