@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db44faaa-b6bf-4268-90fa-4931577d9ba4" name="Changes" comment="flowerBucket and Flowerpack">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flower_store/FlowerBucket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flower_store/FlowerBucket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flower_store/FlowerPack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flower_store/FlowerPack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/flower_store/FlowerBucketTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/flower_store/FlowerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665654816410</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="flowerBucket and Flowerpack">
+      <created>1665674262936</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665674262936</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
