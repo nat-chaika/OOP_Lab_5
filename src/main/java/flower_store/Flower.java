@@ -30,4 +30,8 @@ public class Flower {
         return this.color.toString();
     }
 
+    @Override
+    public String toString() {
+        return this.getClass().getSimpleName();
+    }
 }

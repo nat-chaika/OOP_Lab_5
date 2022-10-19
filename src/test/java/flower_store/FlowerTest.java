@@ -22,7 +22,6 @@ public class FlowerTest {
     @Test
     public void testColor() {
         FlowerColor color = FlowerColor.RED;
-        System.out.println(flower.getColor());
         assertEquals("RED", flower.getColor());
     }
 }

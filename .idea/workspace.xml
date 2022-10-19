@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db44faaa-b6bf-4268-90fa-4931577d9ba4" name="Changes" comment="flowerBucket and Flowerpack">
+      <change afterPath="$PROJECT_DIR$/src/main/java/flower_store/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flower_store/Chamomile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flower_store/Chamomile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/flower_store/Flower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flower_store/Flower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flower_store/FlowerColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flower_store/FlowerColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flower_store/Rose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flower_store/Rose.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flower_store/Tulip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flower_store/Tulip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flower_store/FlowerBucket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flower_store/FlowerBucket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/flower_store/FlowerBucketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/flower_store/FlowerBucketTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/flower_store/FlowerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/flower_store/FlowerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +64,8 @@
     &quot;last_opened_file_path&quot;: &quot;E:/oop/Lab_4/MoreOOP-main&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -74,6 +74,37 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.FlowerTest.testColor">
+    <configuration name="FlowerBucketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab_5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="flower_store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="flower_store" />
+      <option name="MAIN_CLASS_NAME" value="flower_store.FlowerBucketTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowerBucketTest.testPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab_5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="flower_store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="flower_store" />
+      <option name="MAIN_CLASS_NAME" value="flower_store.FlowerBucketTest" />
+      <option name="METHOD_NAME" value="testPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FlowerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab_5" />
       <extension name="coverage">
@@ -108,6 +139,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FlowerTest.testColor" />
+        <item itemvalue="JUnit.FlowerBucketTest" />
+        <item itemvalue="JUnit.FlowerBucketTest.testPrice" />
         <item itemvalue="JUnit.FlowerTest" />
       </list>
     </recent_temporary>
@@ -194,16 +227,5 @@
     <MESSAGE value="flowers" />
     <MESSAGE value="flowerBucket and Flowerpack" />
     <option name="LAST_COMMIT_MESSAGE" value="flowerBucket and Flowerpack" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/flower_store/FlowerBucketTest.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
