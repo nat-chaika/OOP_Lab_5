@@ -1,13 +1,14 @@
 package flower_store;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class Store {
 
-    private List<FlowerBucket> storage;
-    private List<String> storage_labels;
-    private List<Flower> storage_flowers;
+    private ArrayList<FlowerBucket> storage = new ArrayList<>();
+    private List<String> storage_labels = new ArrayList<>();
+    private List<Flower> storage_flowers = new ArrayList<>();
 
     Scanner scanner = new Scanner(System.in);
 
@@ -27,7 +28,6 @@ public class Store {
         myStore.addBuket(bouq1);
         myStore.addBuket(bouq2);
         myStore.addBuket(bouq3);
-
     }
 
     private void addBuket(FlowerBucket bouquet) {

@@ -10,7 +10,7 @@ import java.util.List;
 public class FlowerBucket {
     private int price;
     private String label;
-    private List<Flower> flowers;
+    private ArrayList<Flower> flowers = new ArrayList<>();
     private List<FlowerPack> flowerPacks = new ArrayList<>();
     public void add(FlowerPack pack) {
         this.flowerPacks.add(pack);

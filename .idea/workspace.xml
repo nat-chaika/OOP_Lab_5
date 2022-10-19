@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db44faaa-b6bf-4268-90fa-4931577d9ba4" name="Changes" comment="flowerBucket and Flowerpack">
-      <change afterPath="$PROJECT_DIR$/src/main/java/flower_store/Store.java" afterDir="false" />
+    <list default="true" id="db44faaa-b6bf-4268-90fa-4931577d9ba4" name="Changes" comment="class Store with method search and main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flower_store/Flower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flower_store/Flower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/flower_store/FlowerBucket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flower_store/FlowerBucket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/flower_store/FlowerBucketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/flower_store/FlowerBucketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/flower_store/FlowerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/flower_store/FlowerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flower_store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flower_store/Store.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +70,20 @@
       <recent name="flower_store" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FlowerTest.testColor">
+  <component name="RunManager" selected="Application.Store">
+    <configuration name="Store" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="flower_store.Store" />
+      <module name="Lab_5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="flower_store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FlowerBucketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab_5" />
       <extension name="coverage">
@@ -138,6 +148,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Store" />
         <item itemvalue="JUnit.FlowerTest.testColor" />
         <item itemvalue="JUnit.FlowerBucketTest" />
         <item itemvalue="JUnit.FlowerBucketTest.testPrice" />
@@ -182,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666182783274</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="class Store with method search and main">
+      <created>1666202134842</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666202134842</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +244,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="flowers" />
     <MESSAGE value="flowerBucket and Flowerpack" />
-    <option name="LAST_COMMIT_MESSAGE" value="flowerBucket and Flowerpack" />
+    <MESSAGE value="class Store with method search and main" />
+    <option name="LAST_COMMIT_MESSAGE" value="class Store with method search and main" />
   </component>
 </project>
