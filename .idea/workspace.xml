@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db44faaa-b6bf-4268-90fa-4931577d9ba4" name="Changes" comment="Fixed FlowerBucket bugs;">
+    <list default="true" id="db44faaa-b6bf-4268-90fa-4931577d9ba4" name="Changes" comment="Fixed search in Store.&#10;deleted variable petal_length in Flower;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flower_store/Chamomile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flower_store/Chamomile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flower_store/Flower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flower_store/Flower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flower_store/FlowerBucket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flower_store/FlowerBucket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flower_store/Rose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flower_store/Rose.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/flower_store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flower_store/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flower_store/Tulip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flower_store/Tulip.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666202693393</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fixed search in Store.&#10;deleted variable petal_length in Flower;">
+      <created>1666205908761</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666205908761</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,6 +259,7 @@
     <MESSAGE value="flowerBucket and Flowerpack" />
     <MESSAGE value="class Store with method search and main" />
     <MESSAGE value="Fixed FlowerBucket bugs;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed FlowerBucket bugs;" />
+    <MESSAGE value="Fixed search in Store.&#10;deleted variable petal_length in Flower;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed search in Store.&#10;deleted variable petal_length in Flower;" />
   </component>
 </project>

@@ -6,9 +6,9 @@ import java.util.Scanner;
 
 public class Store {
 
-    private ArrayList<FlowerBucket> storage = new ArrayList<>();
-    private List<String> storage_labels = new ArrayList<>();
-    private List<Flower> storage_flowers = new ArrayList<>();
+    private final ArrayList<FlowerBucket> storage = new ArrayList<>();
+    private final List<String> storage_labels = new ArrayList<>();
+    private final List<Flower> storage_flowers = new ArrayList<>();
 
     Scanner scanner = new Scanner(System.in);
 
@@ -37,8 +37,9 @@ public class Store {
             storage_labels.add(bouquet.getLabel());
         }
         for (Flower flower: bouquet.getFlowers()) {
-            if (!storage_flowers.contains(flower))
-            storage_flowers.add(flower);
+            if (!storage_flowers.contains(flower)) {
+                storage_flowers.add(flower);
+            }
         }
     }
 
@@ -48,18 +49,18 @@ public class Store {
                 System.out.println("Сьогодні серед опцій знаходяться такі категорії:");
                 storage_labels.forEach(System.out::print);
                 System.out.println("\nТо що паноньки бажають? (Введіть цифру)");
-                boolean guess = true;
+                boolean guess =true;
                 while (guess) {
                     String labl = scanner.nextLine();
                     if (labl.equals("1") || labl.equals("2") || labl.equals("3")) {
                         for (int i = 0; i < storage_labels.size(); i++) {
-                            if (!storage_labels.get(i).contains(labl)) {
+                            if (!storage_labels.get(i).contains(labl) && guess) {
                                 if (i == storage_labels.size() - 1) {
                                     System.out.println("Ви точно щось попутали. Спробуйте знову: ");
                                     break;
                                 }
                             }
-                            else {
+                            else if (guess){
                                 System.out.println("Сьогодні вам пощастило. Ви можете вибрати серед:");
                                 int n = 0;
                                 for (FlowerBucket bouquet : storage) {
@@ -69,15 +70,14 @@ public class Store {
                                     }
 
                                 }
-                                boolean fraud = true;
-                                while (fraud) {
-                                    String buk = scanner.next();
+                                while (true) {
+                                    String buk = scanner.nextLine();
                                     int c;
                                     try {c = Integer.valueOf(buk);}
                                     catch(Exception NumberFormatException) {
-                                        System.out.println("Перегляньте ваші варіанти ще раз.");
-                                        break;}
-                                    if ( c > 0 && c <= n) {
+                                        System.out.println("Перегляньте вашу відповідь.");
+                                        continue;}
+                                    if ( c >= 1 && c <= n) {
                                         System.out.println("Супер! Вітаю з вибором! Оплатіть будь ласка на карту");
                                         System.out.println("0992456355899877");
                                         System.out.println("Дякую, бувайте!");
@@ -87,7 +87,6 @@ public class Store {
                                     System.out.println("Ну що, невже не видно, що такого не існує!");
                                 }
                             }
-                            break;
                         }
                     break;
                     }
