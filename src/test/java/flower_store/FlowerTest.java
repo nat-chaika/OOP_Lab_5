@@ -22,7 +22,7 @@ public class FlowerTest {
     @Test
     public void testColor() {
         FlowerColor color = FlowerColor.RED;
-        flower.setColor(color);
-        assertEquals("#FF0000", flower.getColor());
+        System.out.println(flower.getColor());
+        assertEquals("RED", flower.getColor());
     }
 }
