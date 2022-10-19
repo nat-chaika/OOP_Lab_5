@@ -22,9 +22,9 @@ public class FlowerBucket {
     }
 
     private void setLabel() {
-    if (this.price >= 1000) {
+    if (this.getPrice() >= 1000) {
         this.label = "Преміум букети(1)";
-    } else if (this.price < 1000 & this.price >= 600) {
+    } else if (this.getPrice() < 1000 & this.getPrice() >= 600) {
         this.label = "Букети середньої вартості (2)";
     }
     else {
@@ -36,7 +36,7 @@ public class FlowerBucket {
         for (Flower flower:flowers) {
             string += " " + flower.toString() + "s";
         }
-        string += new StringBuilder().append(". The price for it is ").append(this.getPrice()).toString();
+        string += new StringBuilder().append(". The price for it is ").append(this.getPrice());
         return string;
     }
 }

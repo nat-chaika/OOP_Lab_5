@@ -28,6 +28,7 @@ public class Store {
         myStore.addBuket(bouq1);
         myStore.addBuket(bouq2);
         myStore.addBuket(bouq3);
+        myStore.search();
     }
 
     private void addBuket(FlowerBucket bouquet) {
@@ -46,11 +47,11 @@ public class Store {
             if (!storage.isEmpty()) {
                 System.out.println("Сьогодні серед опцій знаходяться такі категорії:");
                 storage_labels.forEach(System.out::print);
-                System.out.println("То що паноньки бажають? (Введіть цифру)");
-                String labl = scanner.next();
+                System.out.println("\nТо що паноньки бажають? (Введіть цифру)");
                 boolean guess = true;
                 while (guess) {
-                    if ("123".contains(labl)) {
+                    String labl = scanner.nextLine();
+                    if (labl.equals("1") || labl.equals("2") || labl.equals("3")) {
                         for (int i = 0; i < storage_labels.size(); i++) {
                             if (!storage_labels.get(i).contains(labl)) {
                                 if (i == storage_labels.size() - 1) {
@@ -60,22 +61,35 @@ public class Store {
                             }
                             else {
                                 System.out.println("Сьогодні вам пощастило. Ви можете вибрати серед:");
-                                int n = 1;
+                                int n = 0;
                                 for (FlowerBucket bouquet : storage) {
-
-                                    if (bouquet.getLabel().contains(labl))
+                                    if (bouquet.getLabel().contains(labl)) {
+                                        n++;
                                         System.out.println(n + ". " + bouquet);
+                                    }
+
                                 }
-                                int buk = Integer.valueOf(scanner.next());
-                                while ( buk > 0 && buk < n) {
-                                    System.out.println("Супер! Вітаю з вибором! Оплатіть будь ласка на карту");
-                                    System.out.println("0992456355899877");
-                                    System.out.println("Дякую, бувай");
+                                boolean fraud = true;
+                                while (fraud) {
+                                    String buk = scanner.next();
+                                    int c;
+                                    try {c = Integer.valueOf(buk);}
+                                    catch(Exception NumberFormatException) {
+                                        System.out.println("Перегляньте ваші варіанти ще раз.");
+                                        break;}
+                                    if ( c > 0 && c <= n) {
+                                        System.out.println("Супер! Вітаю з вибором! Оплатіть будь ласка на карту");
+                                        System.out.println("0992456355899877");
+                                        System.out.println("Дякую, бувайте!");
+                                        guess = false;
+                                        break;
+                                    }
+                                    System.out.println("Ну що, невже не видно, що такого не існує!");
+                                }
                             }
+                            break;
                         }
-                    }
-                        guess = false;
-                        break;
+                    break;
                     }
                     System.out.println("Знову це. Ви не чітко прочитали умову. Try again");
                 }
