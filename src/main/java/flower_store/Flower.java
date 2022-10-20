@@ -7,18 +7,16 @@ import lombok.Setter;
 @Setter
 public class Flower {
 //    private FlowerType type;
-    private int price;
-    private FlowerColor color;
+    private int price = 50;
+    private FlowerColor color = FlowerColor.RED;
 
 
     public Flower() {
-        this.price = 50;
-        this.color = FlowerColor.RED;
     }
 
     public Flower(int i, FlowerColor color) {
-        this.setPrice(i);
-        this.setColor(color);
+        setPrice(i);
+        setColor(color);
     }
 
 
